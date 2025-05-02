@@ -15,7 +15,8 @@
   "devDependencies": {
     "@red-mobile/cordova-plugin-barcodescanner": "^9.1.0",
     "cordova-android": "^14.0.1",
-    "cordova-ios": "^7.1.1"
+    "cordova-ios": "^7.1.1",
+    "cordova-plugin-vibration": "^3.1.1"
   },
   "cordova": {
     "platforms": [
@@ -23,7 +24,8 @@
       "android"
     ],
     "plugins": {
-      "@red-mobile/cordova-plugin-barcodescanner": {}
+      "@red-mobile/cordova-plugin-barcodescanner": {},
+      "cordova-plugin-vibration": {}
     }
   }
 }
