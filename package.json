@@ -13,6 +13,7 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "devDependencies": {
+    "@red-mobile/cordova-plugin-barcodescanner": "^9.1.0",
     "cordova-android": "^14.0.1",
     "cordova-ios": "^7.1.1"
   },
@@ -20,6 +21,9 @@
     "platforms": [
       "android",
       "ios"
-    ]
+    ],
+    "plugins": {
+      "@red-mobile/cordova-plugin-barcodescanner": {}
+    }
   }
 }
